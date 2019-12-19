@@ -10,7 +10,7 @@ resource "docker_image" "talant_ubuntu" {
 }
 
 resource "docker_image" "my_centos" {
-  name = centos:7
+  name = centos
   
 }
 
