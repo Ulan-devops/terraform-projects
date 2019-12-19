@@ -16,7 +16,7 @@ resource "docker_image" "my_centos" {
 
 resource "docker_container" "talant_docker" {
   image = docker_image.my_centos.name
-  name = talant_centos7
+  name = "talant_centos7"
   command = ["sleep", "10000"]
 }
 
