@@ -5,5 +5,5 @@ resource "docker_container" "talant_container" {
 }
 
 resource "docker_image" "talant_ubuntu" {
-  name = "ubuntu:latest"
+  name = "ubuntu"
 }
