@@ -1,6 +1,6 @@
 # Create a container
 resource "docker_container" "talant" {
-  image = "${docker_image.ubuntu.latest}"
+  image = docker_image.name
   name  = "talant"
 }
 
