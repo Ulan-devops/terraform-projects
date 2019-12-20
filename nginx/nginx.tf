@@ -17,4 +17,9 @@ output "talant_nginx_ip" {
   description = "Talant nginx container ip"
 }
 
+output "talant_container_name" {
+  value = docker_container.talant_nginx_container.name
+  description = "Talant nginx container ip"
+}
+
 
