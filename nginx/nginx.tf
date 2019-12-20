@@ -12,3 +12,9 @@ resource "docker_container" "talant_nginx_container" {
   
 }
 
+output "talant_nginx_ip" {
+  value = docker_container.talant_nginx_container.ip_address
+  description = "Talant nginx container ip"
+}
+
+
