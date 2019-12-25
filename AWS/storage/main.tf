@@ -1,6 +1,6 @@
 # Create a random id
 resource "random_id" "tf_bucket_id" {
-  byte_lenght       = 2
+  byte_length       = 2
 }
 # create a bucket
 resource "aws_s3_bucket" "tf_code" {
