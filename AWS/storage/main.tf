@@ -4,7 +4,7 @@ resource "random_id" "tf_bucket_id" {
 }
 # create a bucket
 resource "aws_s3_bucket" "tf_code" {
-  bucket                = "var.project_name"-"random_id.tf_bucket_id.dec"
+  bucket                = "${var.project_name}-${random_id.tf_bucket_id.dec}"
   acl                   = true
   force_destroy         = true
 
