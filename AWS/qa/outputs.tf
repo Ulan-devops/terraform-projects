@@ -1,3 +1,3 @@
 output "qabucket" {
-  value = var.qa_bucket_name.id
+  value = aws_s3_bucket.qa_bucket.id
 }
