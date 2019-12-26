@@ -8,3 +8,10 @@ module "storage" {
   
 }
 
+module "qa" {
+  source = "./qa"
+  qa_bucket_name        = var.qa_bucket_name
+  
+}
+
+
