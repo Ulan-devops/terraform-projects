@@ -14,4 +14,12 @@ module "qa" {
   
 }
 
+module "talant" {
+  source = "./talant"
+  talant_bucket_name    = var.talant_bucket_name
+
+  
+}
+
+
 
