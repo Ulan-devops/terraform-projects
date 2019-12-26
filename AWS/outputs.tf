@@ -2,5 +2,5 @@
 
 # -----storage-outputs
 output "Bucket_name" {
-  value = "${module.storage.bucketname}"
+  value = module.storage.bucketname
 }
