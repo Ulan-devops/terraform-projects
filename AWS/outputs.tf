@@ -3,6 +3,6 @@ output "region" {
 }
 
 output "bucketname" {
-  value = storage.aws_s3_bucket.storage_bucket.id
+  value = module.storage.storage_bucket
 }
 
