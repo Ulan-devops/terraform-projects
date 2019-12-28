@@ -6,3 +6,9 @@ output "bucketname" {
   value = module.storage.storage_bucket
 }
 
+output "devbucket" {
+  value = module.dev.dev_bucket
+}
+
+
+
