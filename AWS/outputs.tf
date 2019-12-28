@@ -7,7 +7,7 @@ output "bucketname" {
 }
 
 output "devbucket" {
-  value = module.dev.dev_bucket
+  value = module.dev.dev_bucket1
 }
 
 
